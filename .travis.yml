@@ -1,0 +1,7 @@
+language: c
+
+install: make dep
+
+script:
+	make all
+	./geometry_test
